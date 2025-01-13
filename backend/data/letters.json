@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Open Letter for Climate Action",
+    "summary": "A call to world leaders to address climate change.",
+    "content": "We urge you to take immediate and impactful steps to mitigate climate change...",
+    "signatures": [
+      {
+        "name": "John Doe",
+        "email": "JohnDoe@harvard.edu",
+        "affiliation": "Harvard Medical School",
+        "note": "I fully support this Open Letter",
+        "socialLinks": "x.com/johndoeDoc/783",
+        "filePath": null,
+        "timestamp": "2025-01-13T14:43:17.949Z"
+      },
+      {
+        "name": "Jane Smith",
+        "email": "JaneSmith@stanford.edu",
+        "affiliation": "Stanford University",
+        "note": "This initiative is crucial for advancing medical research.",
+        "socialLinks": "x.com/janeSmithMed/102",
+        "filePath": null,
+        "timestamp": "2025-01-13T15:12:43.123Z"
+      },
+      {
+        "name": "Robert Brown",
+        "email": "RBrown@oxford.ac.uk",
+        "affiliation": "University of Oxford",
+        "note": "Pleased to see such efforts gaining traction.",
+        "socialLinks": "x.com/robertBrownPhD/421",
+        "filePath": null,
+        "timestamp": "2025-01-13T15:25:09.456Z"
+      },
+      {
+        "name": "we",
+        "email": "we2@e.e",
+        "affiliation": "we3",
+        "note": "we4",
+        "socialLinks": "we5",
+        "filePath": null,
+        "timestamp": "2025-01-13T17:43:17.949Z"
+      },
+      {
+        "name": "34",
+        "email": "3444@er.er",
+        "affiliation": "23",
+        "note": "344",
+        "socialLinks": "3443",
+        "filePath": null,
+        "timestamp": "2025-01-13T17:50:28.783Z"
+      },
+      {
+        "name": "34",
+        "email": "43@ew.ty",
+        "affiliation": "34",
+        "note": "34",
+        "socialLinks": "34",
+        "filePath": "/uploads/1736790658902-optimized_image.png",
+        "timestamp": "2025-01-13T17:50:58.920Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Open Letter for Free Education",
+    "summary": "Advocating for accessible education for all.",
+    "content": "Education is a fundamental right. We request governments worldwide to...",
+    "signatures": [
+      "Emily Davis",
+      "Chris Johnson"
+    ]
+  }
+]
