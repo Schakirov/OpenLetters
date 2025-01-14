@@ -54,6 +54,7 @@ router.post('/:id/sign', upload.single('file'), (req, res) => {
     socialLinks,
     filePath: req.file ? `/uploads/${req.file.filename}` : null,
     timestamp: new Date().toISOString(),
+    verified: 0,
   };
 
   letter.signatures = letter.signatures || [];
