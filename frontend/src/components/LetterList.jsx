@@ -3,9 +3,10 @@ import { Link } from 'react-router-dom';
 
 function LetterList() {
   const [letters, setLetters] = useState([]);
+  const apiBaseUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/letters')
+    fetch(`${apiBaseUrl}/letters`)
       .then((res) => res.json())
       .then((data) => setLetters(data));
   }, []);

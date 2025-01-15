@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 
 function LetterDetail() {
   const { id } = useParams();
+  const apiBaseUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
   const [letter, setLetter] = useState(null);
   const [formData, setFormData] = useState({
     name: '',
@@ -18,7 +19,7 @@ function LetterDetail() {
   const [recordedChunks, setRecordedChunks] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/api/letters/${id}`)
+    fetch(`${apiBaseUrl}/letters/${id}`)
       .then((res) => res.json())
       .then((data) => setLetter(data))
       .catch((error) => console.error(error));
@@ -51,7 +52,7 @@ function LetterDetail() {
       data.append('file', formData.file);
     }
 
-    fetch(`http://localhost:5000/api/letters/${id}/sign`, {
+    fetch(`${apiBaseUrl}/letters/${id}/sign`, {
       method: 'POST',
       body: data,
     })

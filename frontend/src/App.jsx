@@ -4,8 +4,9 @@ import LetterList from './components/LetterList';
 import LetterDetail from './components/LetterDetail';
 
 function App() {
+  const basename = import.meta.env.MODE === 'production' ? '/openletters' : '/';
   return (
-    <Router>
+    <Router basename={basename}>
       <Routes>
         <Route path="/" element={<LetterList />} />
         <Route path="/letters/:id" element={<LetterDetail />} />
